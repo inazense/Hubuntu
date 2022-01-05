@@ -8,4 +8,11 @@
 			templateUrl: '/pages/headboard/headboard.html'
 		};
 	});
+
+	app.directive('carousel', function () {
+		return {
+			restrict: 'E',
+			templateUrl: '/pages/carousel/carousel.html'
+		};
+	});
 })();

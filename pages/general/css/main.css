@@ -1,4 +1,17 @@
 /*
+	general variables
+*/
+:root
+{
+	--font-normal: 'Lato';
+	--font-bold: 'LatoBold';
+	--font-light: 'LatoLight';
+	--headboard-bg-color: #306754;
+	--headboard-text-color: #FCFFFC;
+	
+}
+
+/*
 Import fonts
 */
 @font-face {
@@ -16,11 +29,3 @@ Import fonts
 	src: url(/resources/fonts/Lato-Light.ttf);
 }
 
-/*
-	Colour variables
-*/
-:root
-{
-	--headboard-bg-color: #69be94;
-	--headboard-text-color: #FCFFFC;
-}

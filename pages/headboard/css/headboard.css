@@ -1,16 +1,16 @@
 body
 {
-	padding-top: 76px;
+	padding-top: 56px;
 }
 
 #appTitle
 {
-	font-family: 'LatoBold';
+	font-family: var(--font-bold);
 }
 
 #navbarSupportedContent
 {
-	font-family: 'Lato';
+	font-family: var(--font-normal);
 }
 
 .navbar	
