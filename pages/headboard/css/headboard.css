@@ -1,0 +1,42 @@
+body
+{
+	padding-top: 76px;
+}
+
+#appTitle
+{
+	font-family: 'LatoBold';
+}
+
+#navbarSupportedContent
+{
+	font-family: 'Lato';
+}
+
+.navbar	
+{
+	background-color: var(--headboard-bg-color) !important;
+	color: var(--headboard-text-color) !important;
+}
+
+.nav-link
+{
+	border-radius: 0.5em;
+	width: 10em;
+	text-align: center;
+
+}
+
+.nav-link:hover
+{
+	background-color: var(--headboard-text-color) !important;
+	color: var(--headboard-bg-color) !important;
+}
+
+@media (max-width: 991px) 
+{
+	.nav-link
+	{
+		text-align: justify;
+	}
+}
