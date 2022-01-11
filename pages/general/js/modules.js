@@ -29,4 +29,11 @@
 			templateUrl: '/pages/goals/goals.html'
 		};
 	});
+	
+	app.directive('bottom', function () {
+		return {
+			restrict: 'E',
+			templateUrl: '/pages/bottom/bottom.html'
+		};
+	});
 })();
