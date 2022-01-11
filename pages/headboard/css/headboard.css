@@ -1,22 +1,21 @@
-body
-{
-	padding-top: 56px;
-}
 
 #appTitle
 {
 	font-family: var(--font-bold);
+	opacity: 100%;
 }
 
 #navbarSupportedContent
 {
 	font-family: var(--font-normal);
+	opacity: 100%;
 }
 
 .navbar	
 {
 	background-color: var(--headboard-bg-color) !important;
 	color: var(--headboard-text-color) !important;
+	opacity: 75%;
 }
 
 .nav-link
@@ -24,6 +23,7 @@ body
 	border-radius: 0.5em;
 	width: 10em;
 	text-align: center;
+	opacity: 100%;
 
 }
 

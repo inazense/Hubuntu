@@ -15,4 +15,18 @@
 			templateUrl: '/pages/carousel/carousel.html'
 		};
 	});
+
+	app.directive('cards', function () {
+		return {
+			restrict: 'E',
+			templateUrl: '/pages/cards/cards.html'
+		};
+	});
+
+	app.directive('goals', function () {
+		return {
+			restrict: 'E',
+			templateUrl: '/pages/goals/goals.html'
+		};
+	});
 })();

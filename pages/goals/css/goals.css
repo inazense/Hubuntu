@@ -1,0 +1,19 @@
+#container-goals
+{
+	margin-top: 2em;
+}
+
+#container-goals img
+{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+#container-goals h5
+{
+	text-align: center;
+	font-size: 70%;
+	font-family: 'LatoBold';
+	color: var(--color-title-cards);
+}
