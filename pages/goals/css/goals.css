@@ -17,3 +17,14 @@
 	font-family: 'LatoBold';
 	color: var(--color-title-cards);
 }
+
+#container-goals a
+{
+	text-decoration: none;
+}
+
+#container-goals .row img
+{
+	width: 100%;
+	margin-top: 1%;
+}
