@@ -1,0 +1,54 @@
+#contact
+{
+	margin-top: 5%;
+}
+#contact h1
+{
+	font-family: 'LatoBold';
+	text-align: center;
+
+}
+hr 
+{
+	margin: auto;
+}
+
+#hr1
+{
+	width: 25%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 5px solid #000;
+}
+
+#hr2
+{
+	margin-top: -1.5rem;
+	width: 7%;
+	border-top: 10px solid #306754;
+}
+
+#contact-info
+{
+	margin-top: 2%;
+}
+#contact-info iframe
+{
+	width: 100%;
+	height: 10em;
+	border: 0;
+}
+
+.circle-icon {
+	margin-top: 1%;
+    background: #0EDA00;
+    padding:0.2em;
+    border-radius: 50%;
+	font-size: 1.9em;
+}
+
+.circle-icon:hover
+{
+	background-color: #89F87D;
+}

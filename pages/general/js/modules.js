@@ -30,6 +30,13 @@
 		};
 	});
 	
+	app.directive('contact', function () {
+		return {
+			restrict: 'E',
+			templateUrl: '/pages/contact/contact.html'
+		};
+	});
+
 	app.directive('bottom', function () {
 		return {
 			restrict: 'E',
