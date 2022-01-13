@@ -29,6 +29,13 @@
 			templateUrl: '/pages/goals/goals.html'
 		};
 	});
+
+	app.directive('events', function () {
+		return {
+			restrict: 'E',
+			templateUrl: '/pages/events/events.html'
+		};
+	});
 	
 	app.directive('contact', function () {
 		return {
