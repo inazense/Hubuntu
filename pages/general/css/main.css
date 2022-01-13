@@ -16,17 +16,17 @@ Import fonts
 */
 @font-face {
 	font-family: 'Lato';
-	src: url(resources/fonts/Lato-Regular.ttf);
+	src: url(https://inazense.github.io/Hubuntu/resources/fonts/Lato-Regular.ttf);
 }
 
 @font-face {
 	font-family: 'LatoBold';
-	src: url(resources/fonts/Lato-Bold.ttf);
+	src: url(https://inazense.github.io/Hubuntu/resources/fonts/Lato-Bold.ttf);
 }
 
 @font-face {
 	font-family: 'LatoLight';
-	src: url(resources/fonts/Lato-Light.ttf);
+	src: url(https://inazense.github.io/Hubuntu/resources/fonts/Lato-Light.ttf);
 }
 
 /* hr tag */
