@@ -33,21 +33,21 @@
 	app.directive('events', function () {
 		return {
 			restrict: 'E',
-			templateUrl: 'pages/events/events.html'
+			templateUrl: 'https://inazense.github.io/Hubuntu/pages/events/events.html'
 		};
 	});
 	
 	app.directive('contact', function () {
 		return {
 			restrict: 'E',
-			templateUrl: 'pages/contact/contact.html'
+			templateUrl: 'https://inazense.github.io/Hubuntu/pages/contact/contact.html'
 		};
 	});
 
 	app.directive('bottom', function () {
 		return {
 			restrict: 'E',
-			templateUrl: 'pages/bottom/bottom.html'
+			templateUrl: 'https://inazense.github.io/Hubuntu/pages/bottom/bottom.html'
 		};
 	});
 })();
