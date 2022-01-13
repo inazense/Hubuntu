@@ -15,7 +15,7 @@
 {
 	background-color: var(--headboard-bg-color) !important;
 	color: var(--headboard-text-color) !important;
-	opacity: 75%;
+	opacity: 100%; /* Change this value and navbar class sticky-top to fixed-top in order to put the opacity */ 
 }
 
 .nav-link

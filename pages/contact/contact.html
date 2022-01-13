@@ -6,13 +6,51 @@
 	<div class="row">
 		<div class="col-sm-12 col-md-6" id="contact-info">
 			
+			<!-- Google maps location -->
 			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11834.9149871622!2d-0.4062308!3d42.1346899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c95e9af5f4e08b4!2sEspacio%20Zeta!5e0!3m2!1ses!2ses!4v1641918432495!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
 
-			<i class="fas fa-home circle-icon"></i>
+			<!-- Contact info -->
+			<div class="contact-info-buttons">
+				<!-- class button: btn-outline-success -->
+				<button type="button" class="btn btn-success btn-block">
+					<i class="fas fa-home"></i>
+					<span>Calle Padre Huesca 51, Huesca</span>
+				</button>
 
+				<a href="tel:+34636816346">
+					<button type="button" class="btn btn-success btn-block">
+						<i class="fas fa-phone-alt"></i>
+						<span>+34 636 81 63 46</span>
+						<span>| Pulsa para llamar</span>
+					</button>
+				</a>
+
+				<button type="button" class="btn btn-success btn-block" >
+					<i class="fas fa-at"></i>
+					<span>reciclajetecnologicohuesca@gmail.com</span>
+				</button>
+
+				<a href="https://www.facebook.com/reciclajetecnologicoong/" target="_blank">
+				<button type="button" class="btn btn-success btn-block">
+						<i class="fab fa-facebook-f"></i>
+						<span>Hubuntu | Reciclaje Tecnológico ONG</span>
+				</button></a>
+			</div>
 		</div>
 		<div class="col-sm-12 col-md-6" id="contact-form">
-
+			<form>
+				<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
+					
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Asunto" required>
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Escribe aquí tu mensaje, por favor"></textarea>
+				</div>
+				<button type="submit" class="btn btn-success btn-block" id="btnSubmitForm">Enviar</button>
+			  </form>
 		</div>
 	</div>
 </div>

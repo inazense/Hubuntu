@@ -29,6 +29,9 @@ hr
 	border-top: 10px solid #306754;
 }
 
+/*
+Contact info section
+*/
 #contact-info
 {
 	margin-top: 2%;
@@ -40,15 +43,41 @@ hr
 	border: 0;
 }
 
-.circle-icon {
-	margin-top: 1%;
-    background: #0EDA00;
-    padding:0.2em;
-    border-radius: 50%;
-	font-size: 1.9em;
+.contact-info-buttons
+{
+	margin-top: 2%;
 }
 
-.circle-icon:hover
+#contact-info button
 {
-	background-color: #89F87D;
+	width: 100%;
+	text-align: justify;
+	margin-bottom: 2%;
+	pointer-events: none;
+	/*border: 0;*/
+}
+
+#contact-info button span
+{
+	margin-left: 2%;
+}
+
+/*
+Contact form section
+*/
+
+#contact-form
+{
+	margin-top: 2%;
+}
+
+#contact-form form div
+{
+	margin-bottom: 2%;
+}
+
+#btnSubmitForm
+{
+	margin-top: 1.5%;
+	width: 100%;
 }
