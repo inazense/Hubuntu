@@ -8,12 +8,13 @@
 	text-align: center;
 
 }
+
 hr 
 {
 	margin: auto;
 }
 
-#hr1
+.hr1
 {
 	width: 25%;
 	margin-top: 1rem;
@@ -22,7 +23,7 @@ hr
 	border-top: 5px solid #000;
 }
 
-#hr2
+.hr2
 {
 	margin-top: -1.5rem;
 	width: 7%;

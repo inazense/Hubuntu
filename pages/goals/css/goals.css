@@ -28,3 +28,25 @@
 	width: 100%;
 	margin-top: 1%;
 }
+
+#goals
+{
+	margin-top: 5%;
+}
+#goals h1
+{
+	font-family: 'LatoBold';
+	text-align: center;
+
+}
+
+.goals-column
+{
+	margin-top: 4%;
+}
+
+.goals-column .card
+{
+	margin-top: 2%;
+	text-align: justify;
+}
