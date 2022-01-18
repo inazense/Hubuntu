@@ -36,8 +36,28 @@
 	<carousel></carousel>
 	<cards></cards>
 	<goals></goals>
-	<events></events>
+	<!-- TODO Check why is not loading dynamically the events over here -->
+	<!-- <events></events>  -->
+	<!-- Provisional way. True path is in /pages/events/events.html -->
+	<div class="container" id="events">
+
+		<h1 class="title-hr">EVENTOS</h1>
+	
+		<hr class="hr1">
+		<hr class="hr2">
+	
+		<div class="row" id="eventsRow"></div>
+	</div>
+	<!-- End provisional way -->
+
 	<contact></contact>
 	<bottom></bottom>
+
+	
+	<script src="https://inazense.github.io/Hubuntu/pages/events/js/events.js"></script>
+	<script>
+		div = document.getElementById("eventsRow");
+		addEvents(div);
+	</script>
 </body>
 </html>
