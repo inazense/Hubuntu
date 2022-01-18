@@ -24,6 +24,11 @@
 	height: 10em;
 }
 
+#events img:hover
+{
+	opacity: 75%;
+}
+
 
 #events button
 {
