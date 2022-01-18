@@ -17,12 +17,10 @@ const EVENTS =
 	"1" : 
 	{
 		"name" : "Test event",
-		"preview-img" : "/resources/img/events/test/preview.jpg",
+		"preview-img" : "/resources/img/events/test/preview.png",
 		"start-datetime" : "2022-01-31_10:00",
 		"end-datetime" : "2022-01-31_14:00",
 		"enrollment-link" : "https:www.google.com",
 		"carousel" : {}
 	},
 };
-
-console.log(EVENTS);
