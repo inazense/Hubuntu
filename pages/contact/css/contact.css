@@ -28,7 +28,7 @@ Contact info section
 	text-align: justify;
 	margin-bottom: 2%;
 	pointer-events: none;
-	/*border: 0;*/
+	/* border: 0 !important; */
 }
 
 #contact-info button span
