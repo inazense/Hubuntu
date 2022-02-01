@@ -5,7 +5,7 @@ function addEvents(element)
 		let id = e;
 		let name = EVENTS[e]["name"];
 		let img = EVENTS[e]["preview-img"];
-		let link = "";
+		let link = "/event.html?name=" + name;
 
 		addEventCard(name, img, link, element);
 	}
